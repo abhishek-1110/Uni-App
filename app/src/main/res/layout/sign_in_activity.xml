@@ -6,7 +6,7 @@
     android:padding="25dp"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".sign_in_activity">
 
     <EditText
         android:layout_width="match_parent"
