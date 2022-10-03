@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Uni App</string>
+    <string name="email_suffix">@gmail.com</string>
 </resources>

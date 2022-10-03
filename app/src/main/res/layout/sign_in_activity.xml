@@ -8,23 +8,35 @@
     android:orientation="vertical"
     tools:context=".sign_in_activity">
 
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:layout_marginBottom="20dp"
-        android:text="E-mail"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign In"
+        android:textSize="30sp"
+        android:layout_marginBottom="50dp"
+        android:textStyle="bold"/>
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:layout_marginBottom="20dp"
-        android:text="Password"/>
+        android:hint="E-mail"
+        android:text="@string/email_suffix"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="20dp"
+        android:hint="Password"/>
 
     <Button
         android:id="@+id/signIn"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:layout_marginBottom="20dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:background="@color/purple_200"
         android:text="Sign In"/>
 
     <LinearLayout
@@ -41,7 +53,7 @@
             android:id="@+id/signUp_page"
             android:textStyle="bold"
             android:layout_marginLeft="10dp"
-            android:textColor="@color/purple_500"
+            android:textColor="@color/purple_200"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Sign Up" />
